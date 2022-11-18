@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <title>Registration Form</title>
+        <link rel="stylesheet" href="Login 2.css">
+    </head>
+    <body>
+      <nav class="navbar">
+       <!-- LOGO -->
+       <div class="logo">JOB SEARCH</div>
+       <!-- NAVIGATION MENU -->
+       <ul class="nav-links">
+         <!-- USING CHECKBOX HACK -->
+         <div class="menu">
+           <li><a href="home.html">Home</a></li>
+           <li><a href="register.html">Register</a></li>
+           <li><a href="view-job-post 1.html">View jobs posted</a></li>
+           <li><a href="Apply.html">Apply</a></li>
+         </div>
+       </ul>
+      </nav>
+    </body>
+
+<form action="action" method="post">
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
+
+  <div class="container" style="background-color:teal">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</form>
+</html>
